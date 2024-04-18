@@ -1,0 +1,133 @@
+@media (max-width:600px){
+    .container{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        padding-top: 0.3rem;
+        padding-bottom: 1rem;
+        margin-top: 0rem;
+        margin-left: -1rem;
+        position: absolute;
+        top: 4.5rem;
+        left: -80rem;
+        background-color: rgba(27, 119, 150, 0.712);   
+        width: 100%;
+        transition: all 0.5s linear;
+    }
+    nav ul li{
+        margin-top: 1rem;
+    }
+    nav img{
+        margin-left: -0.5rem;
+    }
+    #chk{
+        opacity: 0;
+        position: absolute;
+        top: 2rem;
+        right: 2.5rem;
+        cursor: pointer;
+    }
+    #chk:checked ~ ul{
+        left: 0rem;
+    }
+    .myicon{
+        opacity: 1;
+        color: black;
+        position: absolute;
+        top: 2rem;
+        right: 2.5rem;
+        cursor: pointer;
+    }
+    .banner{
+        flex-direction: column;
+        padding-top: 18rem;
+        padding-bottom: 2rem;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width:100%
+    }
+    .link{
+        padding: 1rem 2rem;
+    }
+    .right img{
+        width: 100%;
+        margin-top: 9rem;
+    }
+    .about-content{
+        flex-direction: column;
+        padding: 5rem 0;
+        margin-bottom: 2rem;
+    }
+    .about-left{
+        width: 100%;
+    }
+    .about-left img{
+        width: 100%;
+        margin-top: 0rem;
+    }
+    .about-right{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .head{
+        text-align: left;
+    }
+    .company-logo{
+        flex-direction: column;
+    }
+    .logobox{
+        width: 100%;
+    }
+    .service-content{
+        text-align: left;
+    }
+    .card-box{
+        flex-direction: column; 
+    }
+    .cards{
+        width: 100%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    #product ul{
+        flex-direction: column;
+        margin-top: 0.8rem;
+    }
+    #product ul li{
+        margin-top: 1.5rem;
+    }
+    .product-card{
+        flex-direction: column;
+    }
+    .product-card .card{
+        width: 91%;
+    }
+    .card img{
+        width: 100%;
+    }
+    .subscription-content{
+        width: 100%;
+    }
+    .subscription-content .start{
+        margin-top: 2rem;
+    }
+    .subscription-content .email{
+        padding: 1.2rem 4rem;
+    }
+    ::placeholder{
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 200;
+    }   
+    .footer h4{
+        text-align: center;
+    }
+}
